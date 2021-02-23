@@ -1,11 +1,7 @@
 import React from "react";
 
-const Container = () => {
-  return (
-    <div>
-      <p>ima container</p>
-    </div>
-  );
+const Container = (props) => {
+  return <main className="Container">{props.children}</main>;
 };
 
 export default Container;
