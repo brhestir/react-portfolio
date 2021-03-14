@@ -18,7 +18,7 @@ A view of model aspects in React.
 
 ![](./assets/images/react-portfolio.png)
 
-A three-tiered collection of work generated both individually and with others enrolled in the Georgia Tech Full-Stack Coding Bootcamp.
+A collection of work generated both individually and with others while enrolled in the Georgia Tech Full-Stack Coding Bootcamp.
 
 [Deployed GitHub-Pages Site](https://brhestir.github.io/react-portfolio/#/portfolio)
 
