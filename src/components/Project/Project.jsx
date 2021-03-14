@@ -12,19 +12,19 @@ const Project = ({ title, image, desc, repoName, repo, site, summary, conceptsAn
           src={image}
           className="card-img-top"
           alt={repoName}
-          style={{ width: "400px", height: "300px" }}
+          style={{ height: "300px", objectFit: "cover" }}
         />
 				{/* Body of Card */}
         <div className="card-body">
 					{/* Project Title*/}
           <h5 className="card-title">{title}</h5>
 					{/* Project Summary */}
-					<h6><a className="card-link" href="https://en.wiktionary.org/wiki/summa#Latin">S</a>ummary</h6>
+					<h6><a className="card-link" href="https://en.wiktionary.org/wiki/summa#Latin" style={{ color: "black", textDecoration: "none"}}>S</a>ummary</h6>
 					<p className="card-text">{summary}</p>
 					{/* Project Description */}
-					<h6><a className="card-link" href="https://en.wiktionary.org/wiki/describo#Latin">D</a>escription</h6>
+					<h6><a className="card-link" href="https://en.wiktionary.org/wiki/describo#Latin" style={{ color: "black", textDecoration: "none"}}>D</a>escription</h6>
 					<p className="card-text">{desc}</p>
-					<h6>Concepts & Technologies:</h6>
+					<h6><a className="card-link" href="https://en.wiktionary.org/wiki/concipio#Latin" style={{ color: "black", textDecoration:"none"}}>C</a>oncepts &<br/><a className="card-link" href="https://en.wiktionary.org/wiki/%CF%84%CE%B5%CF%87%CE%BD%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1#Ancient_Greek" style={{ color: "black", textDecoration: "none"}}>T</a>echnologies:</h6>
 					{/* Badges */}
 					<p className="card-text">
 						{ arrayFoo.map( (cV) => {
