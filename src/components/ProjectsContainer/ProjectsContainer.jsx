@@ -6,7 +6,7 @@ import myPortfolioPng from "../../assets/images/my-portfolio.png";
 import horiseonPng from "../../assets/images/hw1.png";
 import GBSearchPng from "../../assets/images/GBSearch.png";
 import diamondHandsPng from "../../assets/images/diamond-hands.png";
-import readmeGeneratorPng from "../../assets/images/readme-generator.png";
+import employeeDirectoryPng from "../../assets/images/employee-directory.png";
 import fitnessAdvisorPng from "../../assets/images/fitness-advisor.png";
 import cloudBurgerPng from "../../assets/images/cloud-burger.png";
 
@@ -69,29 +69,19 @@ const ProjectsContainer = (props) => {
 					conceptsAndTech={["search", "algorithm", "research", "stretch", "api", "google"]}
 				/>
 				<Project
-					title="readme-generator"
-					image={readmeGeneratorPng}
-					desc="Parse, transform & generate README instructions with NodeJS and Markdown"
-					repoName="readme-generator"
-					repo="https://github.com/brhestir/readme-generator/"
-					site="https://brhestir.github.io/readme-generator/"
-					summary="This CLI app generates a high-quality README.md composed from user response's to a series of questions common to README.md generation for a new project."
-					conceptsAndTech={["inquirer", "markdown", "parser", "compilation", "representation"]}
-				/>
-			</div>
-			<br/>
-			
-			<div className="card-group">
-				<Project
 					title="fitness-advisor"
 					image={fitnessAdvisorPng}
 					desc="Fitness Advisor is a cloud-based application allowing one to track: both resistance and cardio-based workouts, the duration of each exercise, the number of sets and repetitions performed, as well as weight lifted and / or distance covered for each activity."
 					repoName="fitness-advisor"
 					repo="https://github.com/brhestir/fitness-advisor/"
-					site="https://brhestir.github.io/fitness-advisor/"
+					site="https://limitless-dusk-72131.herokuapp.com/stats"
 					summary="Fitness Advisor is a cloud-based application allowing one to track weekly workout activity and view summary charts generated with Chart.js"
 					conceptsAndTech={["semantic", "express", "canvas", "mongodb", "mongoose", "chartjs"]}
 				/>
+				
+			</div>
+			<br/>
+			<div className="card-group">
 				<Project
 					title="cloud-burger"
 					image={cloudBurgerPng}
@@ -101,6 +91,16 @@ const ProjectsContainer = (props) => {
 					site="https://pure-tor-88060.herokuapp.com/"
 					summary="Create, persist, refine and consume tasty burger objects in the cloud."
 					conceptsAndTech={["deployment", "sql", "handlebars", "sequelize", "pexels"]}
+				/>
+				<Project
+					title="employee-directory"
+					image={employeeDirectoryPng}
+					desc="This is a simple React-based app which uses the Randomuser.me API to generate a list of simulated employees, which one can search and sort by last name."
+					repoName="readme-generator"
+					repo="https://github.com/brhestir/employee-directory/"
+					site="https://brhestir.github.io/employee-directory/"
+					summary="This react app uses the Randomuser.me API to return a list of simulated character profiles from which one may search, sort and filter results until matched."
+					conceptsAndTech={["react", "search", "profile", "filter", "sort", "matching", "randomuser-api"]}
 				/>
 				<Project
 					title="Horiseon Refactor"
