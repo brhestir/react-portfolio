@@ -1,8 +1,23 @@
-import React from "react";
+import axios from "axios";
+import moment from "moment";
+import React, {useEffect, useState} from "react";
+
 
 const Project = ({ title, image, desc, repoName, repo, site, summary, conceptsAndTech }) => {
   const arrayFoo = new Array(...conceptsAndTech);
 	
+	const [lastRepoUpdateTime, setLastRepoUpdateTime] = useState(0);
+
+	useEffect( () => {
+		axios.get(`https://api.github.com/repos/brhestir/${repoName}/events`).then( (response) => {
+			let lastPushTime = response.data[0].created_at;
+			let momentizedLastPushTime = moment(lastPushTime);
+			setLastRepoUpdateTime(momentizedLastPushTime.startOf('day').fromNow() );
+		}).catch((err) => {
+			console.log(err);
+		});
+	}, [repoName]);
+
 	return (
     <>
       <div className="card">
@@ -40,7 +55,7 @@ const Project = ({ title, image, desc, repoName, repo, site, summary, conceptsAn
           </h6>
         </div>
 				<div class="card-footer">
-      		<small class="text-muted">Last updated 3 mins ago</small>
+      		<small class="text-muted">Last updated: {lastRepoUpdateTime}</small>
     		</div>
       </div>
     </>
