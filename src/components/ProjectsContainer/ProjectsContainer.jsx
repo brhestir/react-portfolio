@@ -55,7 +55,7 @@ const ProjectsContainer = (props) => {
 					repoName="react-portfolio"
 					repo="https://github.com/brhestir/react-portfolio/"
 					site="https://brhestir.github.io/react-portfolio/"
-					summary="A model aspect presents different views depending on how it is oriented wrt the observer.  This project uses React to generate views of models given a list of pointers to memories."
+					summary="A model aspect presents different views depending on how it is oriented wrt the observer.  This project uses React to generate views of models given a list of pointers to memories.  A three-tiered collection of work generated both individually and with others enrolled in the Georgia Tech Full-Stack Coding Bootcamp."
 					conceptsAndTech={["react", "portfolio", "pointers", "summary", "concepts", "technology"]}
 				/>
 				<Project

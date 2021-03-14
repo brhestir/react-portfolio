@@ -1,6 +1,6 @@
 # ![https://github.com/brhestir/react-portfolio/blob/main/README.md](https://badgen.net/badge/react/portfolio/green?icon=github&scale=5)
 
-Load/store financial transactions while offline or connected in the cloud.
+A view of model aspects in React.
 
 ![https://github.com/brhestir/react-portfolio/blob/main/LICENSE](https://shields.io/github/license/brhestir/react-portfolio)
 
@@ -18,7 +18,7 @@ Load/store financial transactions while offline or connected in the cloud.
 
 ![](./assets/images/react-portfolio.png)
 
-MongoDB cloud-based financial transaction log with summary charting and offline capability.
+A three-tiered collection of work generated both individually and with others enrolled in the Georgia Tech Full-Stack Coding Bootcamp.
 
 [Deployed GitHub-Pages Site](https://brhestir.github.io/react-portfolio/#/portfolio)
 
