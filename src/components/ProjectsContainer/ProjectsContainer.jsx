@@ -13,14 +13,13 @@ import cloudBurgerPng from "../../assets/images/cloud-burger.png";
 const ProjectsContainer = (props) => {
   return (
     <div>
-      
 			<div className="card-group">
 				<Project
 						title="Diamond-Hands"
 						image={diamondHandsPng}
 						desc="Cloud-based stock trading simulation joining new users with positional expectations and lifetime gains. Written with ❤️ in React."
 						repoName="diamond-hands"
-						repo="https://github.com/brhestir/diamond-hands"
+						repo="https://github.com/brhestir/diamond-hands/"
 						site="https://intense-peak-32491.herokuapp.com/"
 						summary="Get in on the action in a risk-free arena with Diamond Hands, a paper-trading simulator allowing users to acquire stock, observe performance and project gains prior to realizing positions."
 						conceptsAndTech={["react", "express", "mongodb", "eslint", "mongoose", "bcrypt", "materialize-CSS", "stonks"]}
@@ -40,7 +39,7 @@ const ProjectsContainer = (props) => {
 					image={digitalCoffeePng}
 					desc="This is our first project: Digital Coffee. We utilized HTML, CSS, Bootstrap, FontAwesome, JavaScript, and various different APIs (Listed in README.md) to randomly generate quotes, images, and weather information according to user choice."
 					repoName="fresh-dev"
-					repo="https://github.com/brhestir/fresh-dev/"
+					repo="https://github.com/brhestir/digital-coffee/"
 					site="https://brhestir.github.io/digital-coffee/"
 					summary="Often, initial conditions can affect the outcome of systems with complex dynamics.  One's day is no different and arguably more complex.  This app helps us generate a calm and positive foundation from which to start one or more of our days."
 					conceptsAndTech={["bootstrap", "initialization", "humor", "openweatherapi", "pexels-api"]}
@@ -64,8 +63,8 @@ const ProjectsContainer = (props) => {
 					image={GBSearchPng}
 					desc="Search within Google Books for matching items. Publish interesting results for later research, notifying subscribed peers via SocketIO. Hastily composed with React."
 					repoName="fresh-dev"
-					repo="https://github.com/brhestir/weather-dashboard/"
-					site="https://brhestir.github.io/weather-dashboard/"
+					repo="https://github.com/brhestir/GBSearch/"
+					site="https://still-shore-47010.herokuapp.com/search/"
 					summary="Type in a search term and recieve list of matching books for later research"
 					conceptsAndTech={["search", "algorithm", "research", "stretch", "api", "google"]}
 				/>
@@ -98,7 +97,7 @@ const ProjectsContainer = (props) => {
 					image={cloudBurgerPng}
 					desc="Cloud Burger allows one to instantiate new burger types, push them to a stack and / or pop them out to consumers; with state persisted in the cloud."
 					repoName="cloud-burger"
-					repo="https://github.com/brhestir/cloud-burger"
+					repo="https://github.com/brhestir/cloud-burger/"
 					site="https://pure-tor-88060.herokuapp.com/"
 					summary="Create, persist, refine and consume tasty burger objects in the cloud."
 					conceptsAndTech={["deployment", "sql", "handlebars", "sequelize", "pexels"]}
