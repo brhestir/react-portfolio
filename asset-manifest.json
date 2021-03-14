@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.eae517ea.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.202ed1a5.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.202ed1a5.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.fbbb242c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.fbbb242c.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
@@ -20,13 +20,13 @@
     "static/media/fitness-advisor.3d0b52e8.png": "/react-portfolio/static/media/fitness-advisor.3d0b52e8.png",
     "static/media/fresh-dev.64c2080e.png": "/react-portfolio/static/media/fresh-dev.64c2080e.png",
     "static/media/hw1.d8f8004a.png": "/react-portfolio/static/media/hw1.d8f8004a.png",
-    "static/media/my-portfolio.de103f82.png": "/react-portfolio/static/media/my-portfolio.de103f82.png"
+    "static/media/react-portfolio.181f48fe.png": "/react-portfolio/static/media/react-portfolio.181f48fe.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b651fcfa.chunk.js",
     "static/css/main.eae517ea.chunk.css",
-    "static/js/main.202ed1a5.chunk.js"
+    "static/js/main.fbbb242c.chunk.js"
   ]
 }
