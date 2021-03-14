@@ -12,15 +12,15 @@ const Header = () => {
           <ul className="navbar-nav">
             <li className="nav-item ms-auto">
               <Link
-                to="/"
+                to="/aboutme"
                 className={
                   window.location.pathname === "/" ||
-                  window.location.pathname === "/home"
+                  window.location.pathname === "/aboutme"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
-                Home
+                Brian Hestir
               </Link>
             </li>
             <li className="nav-item ms-auto">
