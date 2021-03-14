@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../../components/Project/Project";
 import freshDevPng from "../../assets/images/fresh-dev.png";
 import digitalCoffeePng from "../../assets/images/digital-coffee.png";
-import myPortfolioPng from "../../assets/images/my-portfolio.png";
+import reactPortfolioPng from "../../assets/images/react-portfolio.png";
 import horiseonPng from "../../assets/images/hw1.png";
 import GBSearchPng from "../../assets/images/GBSearch.png";
 import diamondHandsPng from "../../assets/images/diamond-hands.png";
@@ -50,7 +50,7 @@ const ProjectsContainer = (props) => {
 			<div className="card-group">
 				<Project
 					title="react-portfolio"
-					image={myPortfolioPng}
+					image={reactPortfolioPng}
 					desc="A view of some model aspects in React"
 					repoName="react-portfolio"
 					repo="https://github.com/brhestir/react-portfolio/"
