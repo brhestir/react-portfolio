@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.eae517ea.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.825214fb.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.825214fb.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.5a68a6b7.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.5a68a6b7.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
@@ -16,17 +16,17 @@
     "static/media/cloud-burger.25f0b0fe.png": "/react-portfolio/static/media/cloud-burger.25f0b0fe.png",
     "static/media/diamond-hands.d7bb29f5.png": "/react-portfolio/static/media/diamond-hands.d7bb29f5.png",
     "static/media/digital-coffee.c3979de7.png": "/react-portfolio/static/media/digital-coffee.c3979de7.png",
+    "static/media/employee-directory.e68ef286.png": "/react-portfolio/static/media/employee-directory.e68ef286.png",
     "static/media/fitness-advisor.3d0b52e8.png": "/react-portfolio/static/media/fitness-advisor.3d0b52e8.png",
     "static/media/fresh-dev.64c2080e.png": "/react-portfolio/static/media/fresh-dev.64c2080e.png",
     "static/media/hw1.d8f8004a.png": "/react-portfolio/static/media/hw1.d8f8004a.png",
-    "static/media/my-portfolio.de103f82.png": "/react-portfolio/static/media/my-portfolio.de103f82.png",
-    "static/media/readme-generator.0b0a394e.png": "/react-portfolio/static/media/readme-generator.0b0a394e.png"
+    "static/media/my-portfolio.de103f82.png": "/react-portfolio/static/media/my-portfolio.de103f82.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.20c0b7e9.chunk.js",
     "static/css/main.eae517ea.chunk.css",
-    "static/js/main.825214fb.chunk.js"
+    "static/js/main.5a68a6b7.chunk.js"
   ]
 }
