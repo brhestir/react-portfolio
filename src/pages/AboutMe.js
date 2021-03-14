@@ -4,10 +4,9 @@ import profilePicPng from '../assets/images/profilepic.jpeg';
 const Home = () => {
 	return (
 		<>
-			<div className="container-fluid h-100" id="container-background">
-			<h2 className="text-center m-3">About Me</h2>
-				<div className="row h-100">
-					<div className="col-lg-8 col-sm-8">
+			<div className="container" id="container-background">
+				<h2 className="text-center m-3">About Me</h2>
+					<div className="card-group">
 						<div className="card" id="card-content-box">
 							<div className="card-body">
 								<img src={profilePicPng} className="rounded float-left w-25 mr-3" alt="Brian Hestir profile thumbnail"/>
@@ -20,7 +19,6 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
 		</>
 	);
