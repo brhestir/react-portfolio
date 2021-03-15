@@ -15,7 +15,7 @@ const ProjectsContainer = (props) => {
     <div>
 			<div className="card-group">
 				<Project
-						title="Diamond-Hands"
+						title="💎🙌 Diamond-Hands"
 						image={diamondHandsPng}
 						desc="Cloud-based stock trading simulation joining new users with positional expectations and lifetime gains. Written with ❤️ in React."
 						repoName="diamond-hands"
@@ -25,23 +25,23 @@ const ProjectsContainer = (props) => {
 						conceptsAndTech={["react", "express", "mongodb", "eslint", "mongoose", "bcrypt", "materialize-CSS", "stonks"]}
 				/>
 				<Project
-					title="Fresh-Dev"
+					title="🌱 Fresh-Dev"
 					image={freshDevPng}
 					desc="Fresh-Dev is a online platform for students to showcase their work and portfolios for recruiters and hiring managers to view and search for base on specific programming languages."
 					repoName="fresh-dev"
 					repo="https://github.com/brhestir/fresh-dev/"
 					site="https://fresh-dev.herokuapp.com/"
-					summary="Students can fill out a form with their personal details and elect to display languages known.  Next, others can use a search dialog to return results matching languages elected to be displayed in results."
+					summary="Students can fill out a form with their personal details and showcase languages known.  Meanwhile, a search dialog returns results matching languages elected to be displayed in results."
 					conceptsAndTech={["mysql", "express", "handlebars", "materialize-CSS", "networks", "pexels"]}
 				/>
 				<Project
-					title="Digital Coffee"
+					title="☕ Digital Coffee"
 					image={digitalCoffeePng}
 					desc="This is our first project: Digital Coffee. We utilized HTML, CSS, Bootstrap, FontAwesome, JavaScript, and various different APIs (Listed in README.md) to randomly generate quotes, images, and weather information according to user choice."
 					repoName="fresh-dev"
 					repo="https://github.com/brhestir/digital-coffee/"
 					site="https://brhestir.github.io/digital-coffee/"
-					summary="Often, initial conditions can affect the outcome of systems with complex dynamics.  One's day is no different and arguably more complex.  This app helps us generate a calm and positive foundation from which to start one or more of our days."
+					summary="Often, initial conditions can affect the outcome of systems with complex dynamics.  One's day is no different and arguably more complex.  This app helps us generate a calm and positive foundation from which to start our day."
 					conceptsAndTech={["bootstrap", "initialization", "humor", "openweatherapi", "pexels-api"]}
 				/>
 			</div>
@@ -49,7 +49,7 @@ const ProjectsContainer = (props) => {
 			
 			<div className="card-group">
 				<Project
-					title="react-portfolio"
+					title="🧬 react-portfolio"
 					image={reactPortfolioPng}
 					desc="A view of some model aspects in React"
 					repoName="react-portfolio"
@@ -59,7 +59,7 @@ const ProjectsContainer = (props) => {
 					conceptsAndTech={["react", "portfolio", "pointers", "summary", "concepts", "technology"]}
 				/>
 				<Project
-					title="GBSearch"
+					title="🔬 GBSearch"
 					image={GBSearchPng}
 					desc="Search within Google Books for matching items. Publish interesting results for later research, notifying subscribed peers via SocketIO. Hastily composed with React."
 					repoName="fresh-dev"
@@ -69,7 +69,7 @@ const ProjectsContainer = (props) => {
 					conceptsAndTech={["search", "algorithm", "research", "stretch", "api", "google"]}
 				/>
 				<Project
-					title="fitness-advisor"
+					title="🏋️ fitness-advisor"
 					image={fitnessAdvisorPng}
 					desc="Fitness Advisor is a cloud-based application allowing one to track: both resistance and cardio-based workouts, the duration of each exercise, the number of sets and repetitions performed, as well as weight lifted and / or distance covered for each activity."
 					repoName="fitness-advisor"
@@ -83,7 +83,7 @@ const ProjectsContainer = (props) => {
 			<br/>
 			<div className="card-group">
 				<Project
-					title="cloud-burger"
+					title="☁️ cloud-burger"
 					image={cloudBurgerPng}
 					desc="Cloud Burger allows one to instantiate new burger types, push them to a stack and / or pop them out to consumers; with state persisted in the cloud."
 					repoName="cloud-burger"
@@ -93,7 +93,7 @@ const ProjectsContainer = (props) => {
 					conceptsAndTech={["deployment", "sql", "handlebars", "sequelize", "pexels"]}
 				/>
 				<Project
-					title="employee-directory"
+					title="🔗 employee-directory"
 					image={employeeDirectoryPng}
 					desc="This is a simple React-based app which uses the Randomuser.me API to generate a list of simulated employees, which one can search and sort by last name."
 					repoName="readme-generator"
@@ -103,7 +103,7 @@ const ProjectsContainer = (props) => {
 					conceptsAndTech={["react", "search", "profile", "filter", "sort", "matching", "randomuser-api"]}
 				/>
 				<Project
-					title="Horiseon Refactor"
+					title="📡 Horiseon Refactor"
 					image={horiseonPng}
 					desc="Horiseon site refactor"
 					repoName="horiseon"
