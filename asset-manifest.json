@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.eae517ea.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.347c4031.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.347c4031.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.4218987e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.8dd30e91.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8dd30e91.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b651fcfa.chunk.js.map": "/react-portfolio/static/js/2.b651fcfa.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/react-portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.eae517ea.chunk.css.map": "/react-portfolio/static/css/main.eae517ea.chunk.css.map",
+    "static/css/main.4218987e.chunk.css.map": "/react-portfolio/static/css/main.4218987e.chunk.css.map",
     "static/js/2.b651fcfa.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b651fcfa.chunk.js.LICENSE.txt",
     "static/media/GBSearch.20d54689.png": "/react-portfolio/static/media/GBSearch.20d54689.png",
     "static/media/cloud-burger.25f0b0fe.png": "/react-portfolio/static/media/cloud-burger.25f0b0fe.png",
@@ -19,6 +19,7 @@
     "static/media/employee-directory.e68ef286.png": "/react-portfolio/static/media/employee-directory.e68ef286.png",
     "static/media/fitness-advisor.3d0b52e8.png": "/react-portfolio/static/media/fitness-advisor.3d0b52e8.png",
     "static/media/fresh-dev.64c2080e.png": "/react-portfolio/static/media/fresh-dev.64c2080e.png",
+    "static/media/index.css": "/react-portfolio/static/media/gradienta-a1z1zQba_HE-unsplash.e331ee72.jpg",
     "static/media/hw1.d8f8004a.png": "/react-portfolio/static/media/hw1.d8f8004a.png",
     "static/media/react-portfolio.181f48fe.png": "/react-portfolio/static/media/react-portfolio.181f48fe.png"
   },
@@ -26,7 +27,7 @@
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b651fcfa.chunk.js",
-    "static/css/main.eae517ea.chunk.css",
-    "static/js/main.347c4031.chunk.js"
+    "static/css/main.4218987e.chunk.css",
+    "static/js/main.8dd30e91.chunk.js"
   ]
 }
