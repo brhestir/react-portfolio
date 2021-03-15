@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-          Portfolio -> React
+          Portfolio
         </Link>
         <div>
           <ul className="navbar-nav">

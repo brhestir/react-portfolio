@@ -16,14 +16,16 @@ const ProfileCard = () => {
 								<div className="card-body">
 									<h5 className="card-title">Brian Hestir</h5>
 									<h6 className="card-subtitle">Software Engineer</h6>
-									<small className="text-muted">Atlanta, GA.</small><br/>
+									<small className="text-muted">Atlanta, GA</small><br/>
 
 									<br/>
 									<h6 className="card-text">Education:</h6>
-									<span className="cart-text">Certificate, Software Development (Full-Stack)</span><br/>
+									<i class="fas fa-certificate"></i><span> </span>
+									<span className="cart-text">Software Development, Full-Stack Certificate</span><br/>
 									<small className="text-muted">Georgia Institute of Technology, Atlanta, GA.</small><br/>
 
-									<span className="card-text">B.S. Electrical Engineering</span><br/>
+									<i className="fas fa-scroll"></i><span> </span>
+									<span className="card-text">Bachelor of Science, Electrical Engineering</span><br/>
 									<small className="text-muted">Clemson University, Clemson SC.</small><br/>
 									<br/>
 									
