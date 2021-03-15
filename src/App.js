@@ -19,6 +19,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Container>
+				<div className="container" style={{height: "160px"}}></div>
         <Footer />
       </div>
     </HashRouter>

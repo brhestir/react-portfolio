@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div class="footer mt-auto py-3 bg-light" style={{position: "fixed", bottom: 0, width: "100%"}}>
+      <div class="footer mt-auto py-3 bg-light" style={{position: "fixed", bottom: 0, height: "60px", width: "100%"}}>
         <div class="container">
 				<address class="text-muted">
 						Copyright &copy; 2021{" "}

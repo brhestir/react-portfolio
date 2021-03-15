@@ -8,6 +8,7 @@ const Portfolio = () => {
 				<ProjectsContainer />
 			</div>
 		</div>
+
 	);
 };
 
