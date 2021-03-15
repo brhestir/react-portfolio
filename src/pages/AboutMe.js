@@ -5,7 +5,7 @@ import ProfileCard from "../components/ProfileCard/ProfileCard"
 const Home = () => {
 	return (
 		<>
-			<div className="container" id="container-background">
+			<div className="container" style={{position: "relative", top: "75px"}}>
 				<ProfileCard />
 			</div>
 		</>

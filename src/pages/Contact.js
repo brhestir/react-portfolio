@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
 	return (
 		<>
-			<div className="container" id="container-background">
+			<div className="container" style={{position: "relative", top: "75px"}}>
 				<div className="card-group shadow bg-body rounded">
 					<div className="card" id="card-content-box">
 						<div className="card-header">

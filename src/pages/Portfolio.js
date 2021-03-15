@@ -4,7 +4,7 @@ import ProjectsContainer from "../components/ProjectsContainer/ProjectsContainer
 const Portfolio = () => {
 	return (
 		<div>
-			<div className="container">
+			<div className="container" style={{position: "relative", top: "75px"}}>
 				<ProjectsContainer />
 			</div>
 		</div>

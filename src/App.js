@@ -13,7 +13,7 @@ function App() {
       <div>
         <Header />
 				<br/>
-        <Container>
+        <Container className="z-index-n1">
           <Route exact path="/" component={Portfolio} />
           <Route exact path="/aboutme" component={AboutMe} />
           <Route exact path="/portfolio" component={Portfolio} />
