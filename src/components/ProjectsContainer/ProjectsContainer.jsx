@@ -13,7 +13,7 @@ import cloudBurgerPng from "../../assets/images/cloud-burger.png";
 const ProjectsContainer = (props) => {
   return (
     <div>
-			<div className="card-group">
+			<div className="card-group shadow bg-body rounded">
 				<Project
 						title="💎🙌 Diamond-Hands"
 						image={diamondHandsPng}
@@ -47,7 +47,7 @@ const ProjectsContainer = (props) => {
 			</div>
 			<br/>
 			
-			<div className="card-group">
+			<div className="card-group shadow bg-body rounded">
 				<Project
 					title="🧬 react-portfolio"
 					image={reactPortfolioPng}
@@ -81,7 +81,7 @@ const ProjectsContainer = (props) => {
 				
 			</div>
 			<br/>
-			<div className="card-group">
+			<div className="card-group shadow bg-body rounded">
 				<Project
 					title="☁️ cloud-burger"
 					image={cloudBurgerPng}

@@ -5,7 +5,7 @@ const ProfileCard = () => {
 	return (
 		<div>
 			<div className="container" id="container-background">
-				<div className="card-group">
+				<div className="card-group shadow bg-body">
 					<div className="card">
 						<div className="row g-0">
 							<div className="col-md-4">

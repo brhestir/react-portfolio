@@ -4,7 +4,7 @@ const Contact = () => {
 	return (
 		<>
 			<div className="container" id="container-background">
-				<div className="card-group">
+				<div className="card-group shadow bg-body rounded">
 					<div className="card" id="card-content-box">
 						<div className="card-header">
 							<h5 className="card-title">Contact</h5>
