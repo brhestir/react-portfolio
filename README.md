@@ -44,6 +44,10 @@ npm start
 
 Clone this repo and create a pull request.
 
+## Credits
+
+- Photo by [Gradienta](https://unsplash.com/@gradienta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 ## Questions
 
 Questions/comments/suggestions welcome.
