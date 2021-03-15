@@ -4,9 +4,11 @@ const Contact = () => {
 	return (
 		<>
 			<div className="container" id="container-background">
-				<h2 className="text-center m-3">Contact</h2>
 				<div className="card-group">
 					<div className="card" id="card-content-box">
+						<div className="card-header">
+							<h5 className="card-title">Contact</h5>
+						</div>
 						<section className="card-body">
 							<form>
 								<div className="form-group col-sm-10 col-11 ml-3">

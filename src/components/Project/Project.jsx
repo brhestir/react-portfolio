@@ -43,7 +43,7 @@ const Project = ({ title, image, desc, repoName, repo, site, summary, conceptsAn
 					{/* Badges */}
 					<p className="card-text">
 						{ arrayFoo.map( (cV) => {
-							return (<a href={`https://github.com/topics/${cV}`} class="badge badge-pill badge-primary">{cV}+{" "}</a>);
+							return (<a href={`https://github.com/topics/${cV}`} className="badge badge-pill badge-primary">{cV}+{" "}</a>);
 						})}
 					</p>
 					<h6 className="card-subtitle">

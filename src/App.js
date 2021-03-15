@@ -12,6 +12,7 @@ function App() {
     <HashRouter>
       <div>
         <Header />
+				<br/>
         <Container>
           <Route exact path="/" component={Portfolio} />
           <Route exact path="/aboutme" component={AboutMe} />
