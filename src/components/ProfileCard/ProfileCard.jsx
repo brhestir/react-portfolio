@@ -28,21 +28,25 @@ const ProfileCard = () => {
 									<br/>
 									
 									<h6 className="card-text">Skills:</h6>
-									<a href="#!" className="badge badge-pill badge-primary">Electronics</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-electron-original"> </i>Electronics</a><span> </span>
 									<a href="#!" className="badge badge-pill badge-primary">Embedded</a><span> </span>
 									<a href="#!" className="badge badge-pill badge-primary">asm</a><span> </span>
-									<a href="#!" className="badge badge-pill badge-primary">C</a><span> </span>
-									<a href="#!" className="badge badge-pill badge-primary">C++</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-c-plain"> </i>C</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-cplusplus-plain"> </i>C++</a><span> </span>
 									<br/>
-									<a href="#!" className="badge badge-pill badge-primary">Javascript</a><span> </span>
-									<a href="#!" className="badge badge-pill badge-primary">JQuery</a><span> </span>
-									<a href="#!" className="badge badge-pill badge-primary">Express</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-javascript-plain"> </i>Javascript</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-nodejs-plain"> </i>NodeJS</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-npm-original-wordmark"> </i>npm</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-jquery-plain"> </i>JQuery</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-express-original"> </i>Express</a><span> </span>
 									<a href="#!" className="badge badge-pill badge-primary">Socket.IO</a><span> </span>
 									<a href="#!" className="badge badge-pill badge-primary">Websockets</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-vim-plain"> </i>Vim</a><span> </span>
 									<br/>
-									<a href="#!" className="badge badge-pill badge-primary">React</a><span> </span>
-									<a href="#!" className="badge badge-pill badge-primary">Sequelize</a><span> </span>
-									<a href="#!" className="badge badge-pill badge-primary">Mongoose</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-react-original"> </i>React</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-mysql-plain"> </i>MySQL</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-sequelize-plain"> </i>sequelize</a><span> </span>
+									<a href="#!" className="badge badge-pill badge-primary"><i class="devicon-mongodb-plain"> </i>MongoDB/Mongoose</a><span> </span>
 									<a href="#!" className="badge badge-pill badge-primary">D3</a><span> </span>
 									<a href="#!" className="badge badge-pill badge-primary">WebGL</a><span> </span>
 									

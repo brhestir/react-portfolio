@@ -1,6 +1,5 @@
 html {
   height: 100%;
-  background-color: #cce2ff;
 }
 
 main {
@@ -8,13 +7,14 @@ main {
 }
 
 body {
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #cce2ff !important;
+  background-image: url("./assets/images/gradienta-a1z1zQba_HE-unsplash.jpg");
 }
 
 code {
