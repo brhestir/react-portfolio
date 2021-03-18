@@ -41,7 +41,7 @@ const ProjectsContainer = (props) => {
 					repoName="fresh-dev"
 					repo="https://github.com/brhestir/digital-coffee/"
 					site="https://brhestir.github.io/digital-coffee/"
-					summary="Often, initial conditions can affect the outcome of systems with complex dynamics.  One's day is no different and arguably more complex.  This app helps us generate a calm and positive foundation from which to start our day."
+					summary="We designed this this app to generate a calm and peaceful place from which to start our day."
 					conceptsAndTech={["bootstrap", "initialization", "humor", "openweatherapi", "pexels-api"]}
 				/>
 			</div>
@@ -55,7 +55,7 @@ const ProjectsContainer = (props) => {
 					repoName="react-portfolio"
 					repo="https://github.com/brhestir/react-portfolio/"
 					site="https://brhestir.github.io/react-portfolio/"
-					summary="A model aspect presents different views depending on how it is oriented wrt the observer.  This project uses React to generate views of models given a list of pointers to memories.  A collection of work generated both individually and with others enrolled in the Georgia Tech Full-Stack Coding Bootcamp."
+					summary="Selected projects developed individually and with others enrolled in the Georgia Tech Full-Stack Coding Bootcamp.  Composed in React."
 					conceptsAndTech={["react", "portfolio", "pointers", "summary", "concepts", "technology"]}
 				/>
 				<Project
