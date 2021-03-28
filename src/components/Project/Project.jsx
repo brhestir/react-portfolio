@@ -42,8 +42,8 @@ const Project = ({ title, image, desc, repoName, repo, site, summary, conceptsAn
 					<h6><a className="card-link" href="https://en.wiktionary.org/wiki/concipio#Latin" style={{ color: "black", textDecoration:"none"}}>C</a>oncepts &<br/><a className="card-link" href="https://en.wiktionary.org/wiki/%CF%84%CE%B5%CF%87%CE%BD%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1#Ancient_Greek" style={{ color: "black", textDecoration: "none"}}>T</a>echnologies:</h6>
 					{/* Badges */}
 					<p className="card-text">
-						{ arrayFoo.map( (cV) => {
-							return (<span><a href={`https://github.com/topics/${cV}`} className="badge badge-pill badge-primary">{cV}</a> </span>);
+						{ arrayFoo.map( (cV, index) => {
+							return (<span key={index}><a href={`https://github.com/topics/${cV}`} className="badge badge-pill badge-primary">{cV}</a> </span>);
 						})}
 					</p>
 					<h6 className="card-subtitle">
@@ -54,8 +54,8 @@ const Project = ({ title, image, desc, repoName, repo, site, summary, conceptsAn
             Deployed Site: <a className="card-link" href={site}>{site}</a>
           </h6>
         </div>
-				<div class="card-footer">
-      		<small class="text-muted">Last updated: {lastRepoUpdateTime}</small>
+				<div className="card-footer">
+      		<small className="text-muted">Last updated: {lastRepoUpdateTime}</small>
     		</div>
       </div>
     </>
