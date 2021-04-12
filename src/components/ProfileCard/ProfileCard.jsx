@@ -8,27 +8,23 @@ const ProfileCard = () => {
 				<div className="card-group shadow bg-body">
 					<div className="card">
 						<div className="row g-0">
-							<div className="col-md-4">
-								<img src={profilePicPng} alt="Brian Hestir" style={{ height: "370px", objectFit: "cover" }}/>
+							<div className="col-12 col-lg-5">
+								<img className="m-5" src={profilePicPng} alt="Brian Hestir" style={{ height: "300px", objectFit: "cover" }}/>
 							</div>
-
-							<div className="col-md-8">
+							<div className="col-12 col-lg-7">
 								<div className="card-body">
 									<h5 className="card-title">Brian Hestir</h5>
 									<h6 className="card-subtitle">Software Engineer</h6>
 									<small className="text-muted">Atlanta, GA</small><br/>
-
 									<br/>
 									<h6 className="card-text">Education:</h6>
 									<i class="fas fa-certificate"></i><span> </span>
 									<span className="cart-text">Software Development, Full-Stack Certificate</span><br/>
 									<small className="text-muted">Georgia Institute of Technology, Atlanta, GA.</small><br/>
-
 									<i className="fas fa-scroll"></i><span> </span>
 									<span className="card-text">Bachelor of Science, Electrical Engineering</span><br/>
 									<small className="text-muted">Clemson University, Clemson SC.</small><br/>
 									<br/>
-									
 									<h6 className="card-text">Skills:</h6>
 									<a href="https://en.wikipedia.org/wiki/Electronics" target="_blank" rel="noreferrer" className="badge badge-pill badge-primary"><i class="devicon-electron-original"> </i>Electronics</a><span> </span>
 									<a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" rel="noreferrer" className="badge badge-pill badge-primary">Embedded</a><span> </span>
@@ -48,10 +44,8 @@ const ProfileCard = () => {
 									<a href="https://www.mysql.com/" target="_blank" rel="noreferrer" className="badge badge-pill badge-primary"><i class="devicon-mysql-plain"> </i>MySQL</a><span> </span>
 									<a href="https://sequelize.org/" target="_blank" rel="noreferrer" className="badge badge-pill badge-primary"><i class="devicon-sequelize-plain"> </i>Sequelize</a><span> </span>
 									<a href="https://mongoosejs.com/" target="_blank" rel="noreferrer" className="badge badge-pill badge-primary"><i class="devicon-mongodb-plain"> </i>MongoDB/Mongoose</a><span> </span>
-									
 								</div>
 							</div>
-					
 						</div>
 					
 						<div className="row g-0">
