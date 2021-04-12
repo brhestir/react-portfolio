@@ -1,6 +1,11 @@
 import React from 'react';
 import profilePicPng from '../../assets/images/profilepic.jpeg';
 
+const link_email = "mailto:brhestir@gmail.com";
+const link_GitHub = "https://github.com/brhestir";
+const link_LinkedIn = "https://www.linkedin.com/in/brian-hestir-9743336";
+const link_resumePDF = "https://drive.google.com/file/d/1-GNCMynrWPrQnThQWwygVvBBUVlzUMRr/view?usp=sharing";
+
 const ProfileCard = () => {
 	return (
 		<div>
@@ -53,10 +58,10 @@ const ProfileCard = () => {
 								<div className="card-body">
 									<ul className="list-group list-group-flush">
 										<li className="list-group-item">I love learning and working with others to develop cool software and tools.</li>
-										<li className="list-group-item">Check out my work at <a href="https://github.com/brhestir/">Github</a></li>
-										<li className="list-group-item">Connect with me on <a href="https://www.linkedin.com/in/brian-hestir-9743336/">LinkedIn</a></li>
-										<li className="list-group-item">Email: <a href="mailto:brhestir@gmail.com">brhestir@gmail.com</a></li>
-										<li className="list-group-item">Resume: <a href="https://drive.google.com/file/d/1ksWjp3D2j3AgS3UXsbL9AMS7jhMZAzZd/view?usp=sharing">PDF</a></li>
+										<li className="list-group-item">Check out my work at <a href={link_GitHub}>Github</a></li>
+										<li className="list-group-item">Connect with me on <a href={link_LinkedIn}>LinkedIn</a></li>
+										<li className="list-group-item">Email: <a href={link_email}>brhestir@gmail.com</a></li>
+										<li className="list-group-item">Resume: <a href={link_resumePDF}>PDF</a></li>
 									</ul>
 								</div>
 								<div className="card-footer">
